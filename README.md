@@ -17,14 +17,7 @@ It demonstrates strong capabilities in **data preprocessing**, **EDA**, **featur
 ---
 
 ## 📁 **Project Structure**
-├── Flight_Analysis.csv
-├── Flight_Analysis_Capstone.ipynb
-├── Flight_app.py
-├── flight_price_model.pkl
-├── Flight_Refund.ipynb
-├── Flight_Review.csv
-├── sentiment_analysis.pkl
-└── requirements.txt
+<pre> ``` . ├── Flight_Analysis.csv ├── Flight_Analysis_Capstone.ipynb ├── Flight_app.py ├── flight_price_model.pkl ├── Flight_Refund.ipynb ├── Flight_Review.csv ├── sentiment_analysis.pkl └── requirements.txt ``` </pre>
 ---
 
 ## ✨ **Key Features**
