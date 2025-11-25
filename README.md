@@ -18,7 +18,6 @@ It demonstrates strong capabilities in **data preprocessing**, **EDA**, **featur
 
 ## 📁 **Project Structure**
 
-.
 ├── Flight_Analysis.csv
 ├── Flight_Analysis_Capstone.ipynb
 ├── Flight_app.py
