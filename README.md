@@ -14,18 +14,26 @@ This project provides a complete airline analytics solution featuring:
 
 It demonstrates strong capabilities in **data preprocessing**, **EDA**, **feature engineering**, **model development**, **NLP pipelines**, and **deployable application design**.
 
----
 
+---
 ## 📁 **Project Structure**
 
 ├── Flight_Analysis.csv
+
 ├── Flight_Analysis_Capstone.ipynb
+
 ├── Flight_app.py
+
 ├── flight_price_model.pkl
+
 ├── Flight_Refund.ipynb
+
 ├── Flight_Review.csv
+
 ├── sentiment_analysis.pkl
+
 └── requirements.txt
+
 ---
 
 ## ✨ **Key Features**
@@ -46,28 +54,21 @@ Provides Veg/Non-Veg meal suggestions specific to airline selection.
 A clean and user-friendly interface combining all predictions in one place.
 
 ---
+## 🧠 Project Architecture
+                 Flight Dataset
+                        │
+                        ▼
+           EDA + Feature Engineering
+                        │
+                        ▼
+    ┌────────────────────┬─────────────────────┬────────────────────┐
+    │    Fare Model      │   Sentiment Model   │    Refund Logic    │
+    │   (Regression)     │       (NLP)         │    (Rule-based)    │
+    └────────────────────┴─────────────────────┴────────────────────┘
+                        │
+                        ▼
+               Streamlit Dashboard
 
-## 🧠 **Project Architecture**
-┌───────────────────┐
-             │   Flight Dataset  │
-             └──────────┬────────┘
-                        │
-             ┌──────────▼──────────┐
-             │ EDA + Feature Engg. │
-             └──────────┬──────────┘
-                        │
-   ┌────────────────────┼────────────────────┐
-   │                    │                    │
-┌──────▼──────┐ ┌──────▼───────┐ ┌──────▼────────┐
-│ Fare Model │ │ Sentiment │ │ Refund Logic │
-│ Regression │ │ NLP Model │ │ Rule-based │
-└──────┬──────┘ └──────┬───────┘ └──────┬────────┘
-│ │ │
-└──────────────┬─────┴─────┬─────────────┘
-▼ ▼
-┌─────────────────────┐
-│ Streamlit Dashboard │
-└─────────────────────┘
 ---
 
 ## 🚀 **How to Run the App**
